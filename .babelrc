@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ],
+  "ignore": [
+    ".nyc_output",
+    "node_modules",
+    "coverage",
+    "files",
+    ".tmp"
+  ]
+}

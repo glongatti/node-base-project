@@ -1,0 +1,50 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Passe o mouse para ver as descrições dos atributos existentes.
+  // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Local",
+      "program": "${workspaceRoot}/index.js",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": "8080"
+      },
+      "outputCapture": "std"
+    }, 
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Test",
+      "program": "${workspaceRoot}/index.js",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": "8080",
+        "DATABASE_HOST": "35.199.126.152",
+        "DATABASE_NAME": "get4mas_autoavaliar",
+        "DATABASE_USER": "mblabsdev",
+        "DATABASE_PASSWORD": "Mbl4bs@2020"
+      },
+      "outputCapture": "std"
+    }, 
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Prod",
+      "program": "${workspaceRoot}/index.js",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": "8080",
+        "DATABASE_HOST": "35.199.126.152",
+        "DATABASE_NAME": "get4mas_autoavaliar",
+        "DATABASE_USER": "mblabsdev",
+        "DATABASE_PASSWORD": "Mbl4bs@2020"
+      },
+      "outputCapture": "std"
+    }
+  ]
+}
+

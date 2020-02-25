@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "global-require": "off",
+    "consistent-return": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle":"off",
+    "max-len": [
+      "error",
+      120
+    ],
+    "class-methods-use-this": "warn"
+  },
+  "plugins": [
+    "babel"
+  ]
+}
